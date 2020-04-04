@@ -2,17 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
+use Illuminate\View\View;
 
 class MoviesController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return Factory|View
      */
     public function index() {
+
         // Popular Movie Data from API
         $popularMovies = Http::withToken(config('services.tmdb.token'))
             ->get('https://api.themoviedb.org/3/movie/popular')
@@ -34,9 +37,9 @@ class MoviesController extends Controller
         });
 
         return view('index', [
-            'popularMovies' => $popularMovies,
+            'popularMovies' => collect($popularMovies)->take(10),
             'genres' => $genres,
-            'nowPlayingMovies' => $nowPlayingMovies,
+            'nowPlayingMovies' => collect($nowPlayingMovies)->take(10),
         ]);
     }
 
