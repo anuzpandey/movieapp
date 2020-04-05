@@ -17,7 +17,7 @@
 
         <!-- Now Playing -->
         <div class="now-playing-movies py-24">
-            <h2 class="uppercase text-orange-500 tracking-wider text-lg font-semibold">Popular Movies</h2>
+            <h2 class="uppercase text-orange-500 tracking-wider text-lg font-semibold">Now Showing</h2>
             <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
 
                 @foreach($nowPlayingMovies as $movie)
