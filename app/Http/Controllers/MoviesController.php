@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\ViewModels\MoviesViewModel;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
@@ -36,10 +37,16 @@ class MoviesController extends Controller
             return [$genre['id'] => $genre['name']];
         });
 
-        return view('index', [
-            'popularMovies' => collect($popularMovies)->take(10),
+//        $viewModal = new MoviesViewModel(
+//            $popularMovies,
+//            $nowPlayingMovies,
+//            $genres,
+//        );
+
+        return view('movies.index', [
+            'nowPlayingMovies' => $nowPlayingMovies,
+            'popularMovies' => $popularMovies,
             'genres' => $genres,
-            'nowPlayingMovies' => collect($nowPlayingMovies)->take(10),
         ]);
     }
 
@@ -61,7 +68,7 @@ class MoviesController extends Controller
             ->get('https://api.themoviedb.org/3/movie/'.$id.'?append_to_response=credits,videos,images')
             ->json();
 
-        return view('show', [
+        return view('movies.show', [
             'movie' => $movie,
         ]);
 
@@ -75,7 +82,7 @@ class MoviesController extends Controller
      */
     public function edit($id)
     {
-        //
+        return null;
     }
 
     /**
@@ -87,7 +94,7 @@ class MoviesController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        return null;
     }
 
     /**
@@ -98,6 +105,6 @@ class MoviesController extends Controller
      */
     public function destroy($id)
     {
-        //
+        return null;
     }
 }
