@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9aa804b8-2a70-492a-ac3c-1ee2cf23dbfd" name="Default Changelist" comment="" />
+    <list default="true" id="9aa804b8-2a70-492a-ac3c-1ee2cf23dbfd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TvController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TvController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ViewModels/ActorViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ViewModels/ActorViewModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/actors/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/actors/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tv/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tv/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tv/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tv/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +170,8 @@
       <workItem from="1585999545267" duration="6727000" />
       <workItem from="1586099313359" duration="3739000" />
       <workItem from="1586378624475" duration="90000" />
-      <workItem from="1586873943109" duration="17734000" />
+      <workItem from="1586873943109" duration="18105000" />
+      <workItem from="1586954724185" duration="3842000" />
     </task>
     <servers />
   </component>
@@ -169,10 +179,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="140" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586895673074">
+    <state x="467" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1586957006101">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="413" y="140" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1586895673074" />
+    <state x="467" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1586957006101" />
+    <state x="413" y="140" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586955097096">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="140" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1586955097096" />
     <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1586902009532">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -185,10 +199,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1585931214967" />
-    <state x="354" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1586873946154">
+    <state x="354" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1586954741659">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="354" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1586873946154" />
+    <state x="354" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1586954741659" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1585923882695">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -197,9 +211,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="424" y="10" key="refactoring.ChangeSignatureDialog/0.0.1366.768@0.0.1366.768" timestamp="1586895888550" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586901897950">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586958476785">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1586901897950" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1586958476785" />
   </component>
 </project>
