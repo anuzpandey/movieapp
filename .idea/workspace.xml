@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9aa804b8-2a70-492a-ac3c-1ee2cf23dbfd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TvController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TvController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ViewModels/ActorViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ViewModels/ActorViewModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/actors/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/actors/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tv/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tv/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tv/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tv/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="9aa804b8-2a70-492a-ac3c-1ee2cf23dbfd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +162,7 @@
       <workItem from="1586099313359" duration="3739000" />
       <workItem from="1586378624475" duration="90000" />
       <workItem from="1586873943109" duration="18105000" />
-      <workItem from="1586954724185" duration="3842000" />
+      <workItem from="1586954724185" duration="4537000" />
     </task>
     <servers />
   </component>

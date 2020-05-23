@@ -24,7 +24,7 @@ class MoviesController extends Controller
 
         // Now Playing Movies Data from API
         $nowPlayingMovies = Http::withToken(config('services.tmdb.token'))
-            ->get('https://api.themoviedb.org/3/movie/now_playing')
+            ->get('https://api.themoviedb.org/3/movie/now_playing?append_to_response=videos,images')
             ->json()['results'];
 
         // Genre Data from API
